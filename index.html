@@ -20,6 +20,13 @@
 
 </head>
 <body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <h3>Jessica Pinto <br>Portfolio @2022</h3>
+        <div class="counter">0</div>
+        <p>Creative/<br>Frontend Web Developer</p>
+
+    </div>
     
 <!-- HEADER -->
 
@@ -120,7 +127,30 @@
 <!-- /STICKY NAV -->
 
 
+
+<!-- PRELOADER JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+        function counter(){
+        var count = setInterval(function(){
+            var c = parseInt($('.counter').text());
+            $('.counter').text((++c).toString());
+            if(c == 100){
+                clearInterval(count);
+                $('.counter').addClass('hide')
+                $('.preloader').addClass('active')
+            }
+        },60)
+    }
+    counter()
+
+</script>
+
+
+
+
 <script> Splitting(); </script>
+<script src="./JS/preloader.js"></script>
     
 </body>
 </html>

@@ -6,18 +6,18 @@
     justify-content: center;
     width: 100%;
     padding: 5%;
+    margin: 0;
 }
 
   
 .text-container {
     border: 5px solid green;
     width: 100%;
-    height: 100vh;
-  color: rgb(0, 0, 0);
-  font-family: 'Barlow',sans-serif;
-  font-weight: 600;
-  font-size: 8rem;
-  line-height: 7rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Barlow',sans-serif;
+    font-weight: 600;
+    font-size: 8rem;
+    line-height: 7rem;
 }
 
 
@@ -25,7 +25,8 @@
   border: 5px solid purple;
   float: right;
   text-align: right;
-  margin-top: 30%;
+  bottom: 0;
+  right: 6%;
 }
 
 
@@ -44,13 +45,11 @@
 
 .img-container {
 display: block;
-position: absolute;
 top: 50%;
 width: 450px;
 height: 600px;
 border-radius: 2px;
 left: 8%;
-margin: 5%;
 overflow: hidden;
 animation: translate 2s;
 animation-fill-mode: forwards;
