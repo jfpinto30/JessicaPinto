@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Pinto</title>
+    <meta name="description" content="Creative developer passionate about building appealing and interactive web experiences.">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!-- STYLESHEET -->
+<link rel="stylesheet" href="./CSS/body.css">
+<link rel="stylesheet" href="./CSS/header.css">
+<link rel="stylesheet" href="./CSS/main.css">
+
+<!-- SPLITTING JS -->
+<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+
+</head>
+<body>
+    
+<!-- HEADER -->
+
+    <header class="Header_header">
+        
+            <div class="Header_headerGrid">
+                
+                 <div class="Header_title">
+                        <a class="header_headertitel" href="/">Jessica Pinto</a>
+                </div>
+                 <div class="Header_container">
+                    <div class="Header_current">
+                        <p>Currently Working<br> Further Educating</p>
+
+                    </div>
+             
+                 </div>
+                 <div class="Header_container">
+                    <div class="Header_location">
+                        <p>Based in Georgia <br> United States</p>
+
+                    </div>
+                 </div>
+
+                 <!-- NAVIGATION -->
+                    
+                        <nav class="Header_lgNav">
+
+                            <ul>
+                            <li><a class="Header_navLink" href="/work">Work</a></li>, 
+                            <li><a class="Header_navLink" href="/about">About</a></li>, 
+                            <li><a class="Header_navLink" href="/contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                      
+                </div>
+            
+                
+            </div>
+    
+    
+            <!-- MOBILE NAVIGATION -->
+
+<div class="menu-mobile">
+ <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span>Menu</label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+        <div class="container">
+      <ul>
+<li><a class="header_link" href="#">Home</a></li>
+<li><a class="header_link" href="#">About</a></li>
+<li><a  class="header_link" href="#">Work</a></li>
+<li><a  class="header_link" href="#">Contact</a></li>
+      </div>
+</ul>
+</div>
+</div>
+</header>
+
+<!-- MAIN -->
+<div class="main">
+<div class="text-container">
+<div data-splitting>CREATIVE<br>DEVELOPER
+    <div class="img-container">
+        <img class="img-jessicaPinto" src="./IMG/Jeca-img1.jpg" alt="Jessica Pinto img" >
+        <div class="overlay"></div>
+    
+    </div>
+
+</div>
+<div data-splitting class="jessica_main">JESSICA<br>PINTO</div>
+</div>
+
+
+
+
+
+
+</div>
+<!-- /MAIN -->
+
+<!-- STICKY NAV -->
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+<!-- /STICKY NAV -->
+
+
+<script> Splitting(); </script>
+    
+</body>
+</html>
