@@ -10,7 +10,6 @@
 
   
 .text-container {
-    border: 5px solid green;
     width: 100%;
     color: rgb(0, 0, 0); 
     font-family: 'Barlow',sans-serif;
@@ -26,7 +25,6 @@
 
 
 .jessica_main{
-  border: 5px solid purple;
   float: right;
   text-align: right;
   bottom: 0;
