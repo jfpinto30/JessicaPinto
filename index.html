@@ -23,21 +23,27 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 <!-- /SPLITTING JS-->
 
-    <!-- PRELOADER -->
-  
-    <div class="preloader">
-        <h3>Jessica Pinto <br>Portfolio @2022</h3>
-        <div class="counter">0</div>
-        <p>Creative/<br>Frontend Web Developer</p>
 
-    </div>
+
 
 
 </head>
-<body>
- 
+<body id="_next">
 
-<!-- CURSOR -->
+
+   <div class="intro">
+    <span class="logo jess">Jessica Pinto <br>Portfolio @2022</span>
+
+    <h1 class="logo-header">
+        <span class="logo">W</span><span class="logo">e</span><span class="logo">b</span>
+        <span class="logo">Deve</span><span class="logo">loper.</span>
+    </h1>
+
+   </div>
+
+
+
+  <!-- CURSOR -->
 
 	<div class="cursor"></div>
 	<div class="cursor-follower"></div>
@@ -107,6 +113,10 @@
 </header>
 <!-- /HEADER -->
 
+
+
+
+
 <!-- MAIN -->
 <div class="main">
 <div class="text-container">
@@ -119,6 +129,7 @@
 
 </div>
 <div class="jessica-arrow">
+    <span>↓</span>
     <p>I'M ALWAYS LOOKIG FOR<br>OPPORTUNITIES TO IMPROVE<br>MY PROGRAMMING SKILLS!</p>
 
 </div>
@@ -155,28 +166,10 @@
 
 
 
-<!-- PRELOADER JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript">
-        function counter(){
-        var count = setInterval(function(){
-            var c = parseInt($('.counter').text());
-            $('.counter').text((++c).toString());
-            if(c == 100){
-                clearInterval(count);
-                $('.counter').addClass('hide')
-                $('.preloader').addClass('active')
-            }
-        },60)
-    }
-    counter()
-
-</script>
-
-
 
 
 <script> Splitting(); </script>
-<script src="./JS/cursor.js"></script>    
+<script src="./JS/cursor.js"></script>   
+<script src="./JS/preloader.js"></script> 
 </body>
 </html>

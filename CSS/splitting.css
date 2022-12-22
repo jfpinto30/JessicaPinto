@@ -24,9 +24,6 @@
   left: 0;
   visibility: hidden;
   transition:  inherit;
-  transition-duration: 4s;
-  transition-delay: 12s;
-
   user-select: none;
 
 }

@@ -1,64 +1,47 @@
-.preloader {
+
+  /* LOADER */
+
+  .intro {
     position: fixed;
+    z-index: 1;
+    left: 0;
     top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100vh;
-    background: #070707;
-    z-index: 100000000;
-    
-  }
-  
-  .preloader h3{
-    width: 100%;
-    font-size: 26px;
-    letter-spacing: 4px;
-    text-align: center;
-    color: #fff;
-  }
-  .preloader p{
-    width: 100%;
-    font-size: 26px;
-    letter-spacing: 4px;
-    text-align: center;
-    color: #fff;
-  }
-  
-  
-  .preloader:before {
-    content: 'Loading';
-    position: absolute;
-    font-size: 12em;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
-    color: rgba(255, 255, 255, .03);
-  }
-  
-  .preloader.active{
-    transform: translateY(-100vh);
-    transition: ease-in-out 1s;
-    transition-delay: 1s;
-  }
-  
-  .counter {
-    position: relative;
-    color: #fff;
-    font-size: 16em;
-    font-weight: 700;
-    font-family: 'Barlow', sans-serif;
-    z-index: 1;
-  }
-  .counter:after {
-    content: '%';
-    font-size: 0.5em;
-  }
-  
-  .hide {
-    opacity: 0;
+    background-color: #161616;
     transition: 1s;
-    pointer-events: none;
-  
+  }
+
+  .logo-header {
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  .jess {
+    color: #efefef;
+    font-size: 20px;
+    margin: 2%;
+  }
+ 
+
+  .logo {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+    color: #efefef;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .logo.active {
+    bottom:0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+  }
+
+  .logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
   }
