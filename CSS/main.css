@@ -1,6 +1,5 @@
 
 .main {
-  border: 5px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +12,7 @@
 .text-container {
     border: 5px solid green;
     width: 100%;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
     font-family: 'Barlow',sans-serif;
     font-weight: 600;
     font-size: 8rem;
