@@ -24,14 +24,8 @@
 <!-- /SPLITTING JS-->
 
 
-
-
-
-</head>
-<body id="_next">
-
-
-   <div class="intro">
+<!-- PRELOADER -->
+<div id="loader" class="intro">
     <span class="logo jess">Jessica Pinto <br>Portfolio @2022</span>
 
     <h1 class="logo-header">
@@ -40,18 +34,22 @@
     </h1>
 
    </div>
-
+<!-- /PRELOADER -->
 
 
   <!-- CURSOR -->
-
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
 <!-- /CURSOR -->
-    
-<!-- HEADER -->
 
+
+</head>
+
+
+<body onload="load()" style="margin:0;">
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<!-- HEADER -->
     <header class="Header_header">
         
             <div class="Header_headerGrid">
@@ -87,7 +85,7 @@
                 </div>
             
                 
-            </div>
+    </header>
     
     
             <!-- MOBILE NAVIGATION -->
@@ -110,7 +108,7 @@
 
              <!-- /MOBILE NAVAGATION -->
 
-</header>
+
 <!-- /HEADER -->
 
 
@@ -119,6 +117,8 @@
 
 <!-- MAIN -->
 <div class="main">
+    
+    
 <div class="text-container">
 <div data-splitting>CREATIVE<br>DEVELOPER
     <div class="card img-container">
@@ -140,9 +140,28 @@
 
 
 
-
 </div>
 <!-- /MAIN -->
+
+</div>
+
+<!-- AFTER PRELOADER-->
+
+<script>
+    var myVar;
+    
+    function load() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+
+
 
 
 
