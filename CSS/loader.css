@@ -1,6 +1,5 @@
 
   /* LOADER */
-
   .intro {
     position: fixed;
     z-index: 1;
@@ -48,7 +47,7 @@
 
 
 
-
+/* AFTER PRELOADER */
   .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
@@ -70,27 +69,8 @@
   #myDiv {
     display: none;
   }
-  #myMain {
-    display: none;
-  }
 
 
 
 
-  .animatetext {
-    position: relative;
-    -webkit-animation-name: animatetext;
-    -webkit-animation-duration: 1s;
-    animation-name: animatetext;
-    animation-duration: 1s
-  }
-  
-  @-webkit-keyframes animatetext {
-    from { left:-100px; opacity:0 } 
-    to { left:0px; opacity:1 }
-  }
-  
-  @keyframes animatetext { 
-    from{ left:-100px; opacity:0 } 
-    to{ left:0; opacity:1 }
-  }
+

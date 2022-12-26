@@ -1,8 +1,27 @@
 @media screen and (min-width: 992px) and (max-height: 840px) {}
 @media screen and (min-width: 1380px) and (max-height: 880px) {}
 
+@media screen and (max-width:370px){
+  
+}
+@media screen and (max-width:425px){
 
+}
+@media screen and (max-width:768px){
 
+}
+@media screen and (max-width:880px){
+
+}
+@media screen and (max-width:950px){
+
+}
+@media screen and (max-width:1040px){
+
+}
+@media screen and (max-width:2040px){
+
+}
 
 
 
@@ -15,6 +34,7 @@
     margin: 0%;
     padding:0%;
 }
+
 
 .Header_headerGrid{
     width: 100%;
@@ -139,7 +159,7 @@
 }
 
 
-
+/* HAMBURGER MENU */
   .wrapper{
     position: fixed;
     top: 0;
@@ -163,10 +183,14 @@
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     z-index: 3;
+  }
+  .menu-btn:hover{
+    color: rgb(110, 142, 234);
+    cursor:none;
   }
 
   .menu-btn span,
@@ -272,7 +296,7 @@
     color: #202020;
   }
   .content .title{
-    font-size: 40px;
+    font-size:40px;
     font-weight: 700;
   }
   .content p{
@@ -332,8 +356,6 @@
 
 
 /*NAV*/
-
-
 #navbar {
     overflow: hidden;
     background-color: #333;
