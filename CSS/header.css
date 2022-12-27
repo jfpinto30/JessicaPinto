@@ -1,5 +1,3 @@
-@media screen and (min-width: 992px) and (max-height: 840px) {}
-@media screen and (min-width: 1380px) and (max-height: 880px) {}
 
 @media screen and (max-width:370px){
   
@@ -53,10 +51,29 @@
 }
 
 
+
 .Header_title {
-  margin-right: 4%;   
-  width: 200px;   
+  width: 200px; 
+  margin-left: 1%;  
 }
+@media screen and (max-width:325px){
+  .Header_title {
+    padding-left:1%;
+    }
+}
+@media screen and (max-width:425px){
+  .Header_title {
+    width: 100%;
+    padding-left:1%;
+    }
+}
+@media screen and (max-width:575px){
+  .Header_title {
+    padding-left:1% ;
+    }
+}
+
+
 
 
 .header_headertitel {
@@ -67,6 +84,19 @@
   color: rgb(110, 142, 234);
   cursor:none;
 }
+@media screen and (max-width:576px){
+  a.header_headertitel{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:768px){
+  a.header_headertitel{
+    font-size: 20px;
+  }
+}
+
+
+
 
 .Header_container {
     display: flex;
@@ -81,13 +111,51 @@
     font-size: 23px;
     color: #2c2b2b;
 }
+@media screen and (max-width:370px){
+  .Header_container p{
+    display: none;
+  }
+}
+@media screen and (max-width:450px){
+  .Header_container p{
+    display: none;
+  }
+}
+@media (max-width:768px){
+  .Header_container p{
+   display: none;  
+  }
+}
+@media (max-width:925px){
+  .Header_container p{
+      display: none;
+  }
+}
+
+
 
 
 
 .Header_lgNav li{ 
   display: inline-block;
 }
-
+@media (max-width: 925px){
+  .Header_lgNav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  .Header_lgNav li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+}
 
 .Header_lgNav a{ 
   font-size: 23px;
@@ -96,6 +164,14 @@
 .Header_lgNav a:hover{ 
   color: rgb(110, 142, 234);
   cursor:none;
+}
+@media (max-width: 925px){
+  .Header_lgNav a {
+    font-size: 40px;
+  }
+  a:hover,a.active {
+    background: none;
+  }
 }
 
 
@@ -107,25 +183,24 @@
     cursor: pointer;
     display: none;
 }
-
-#check {
-    display: none;
-}
-
-
 @media (max-width: 925px){
   .checkbtn {
     display: block;
   }
-  .Header_navArea{
-    visibility: hidden;
+}
+
+
+#check {
+    display: none;
+}
+@media (max-width: 925px){
+  #check:checked ~ ul{
+    left:0;
   }
-  div.menu-mobile {
-    visibility: visible;
-  }
-  .Header_container p{
-    visibility: hidden;
-  }
+}
+
+
+@media (max-width: 925px){
   .Header_lgNav ul{
     position: fixed;
     width: 100%;
@@ -146,17 +221,12 @@
   }
   a:hover,a.active {
     background: none;
-    color: rgb(153, 32, 169);
   }
   #check:checked ~ ul{
     left:0;
   }
 }
-@media (max-width:768px){
-    .Header_container p{
-        visibility: hidden;
-    }
-}
+
 
 
 /* HAMBURGER MENU */
@@ -173,6 +243,8 @@
   #active:checked ~ .wrapper{
     right:0;
   }
+
+
   .menu-btn{
     position: absolute;
     z-index: 2;
@@ -183,7 +255,9 @@
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 20px;
+    font-family: 'Barlow',sans-serif;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     z-index: 3;
@@ -192,6 +266,12 @@
     color: rgb(110, 142, 234);
     cursor:none;
   }
+  @media screen and (max-width:325px){
+    .menu-btn{
+      }
+  }
+
+
 
   .menu-btn span,
   .menu-btn:before,
@@ -220,26 +300,22 @@
       height: 100%;
       pointer-events: none;
       transition: background .6s;
-      
   }
   
   /* closing animation */
   #active:checked + .menu-btn span {
       transform: scaleX(0);
       visibility: visible;
-
   }
   #active:checked + .menu-btn:before {
       transform: rotate(45deg);
     border-color: #fff;
     visibility: visible;
-
   }
   #active:checked + .menu-btn:after {
       transform: rotate(-45deg);
     border-color: #fff;
     visibility: visible;
-
   }
   .wrapper ul{
     position: absolute;
@@ -340,14 +416,16 @@
     transform-origin: bottom left;
   }
 
+
   .menu-mobile {
     visibility: hidden;
   }
-.menu-btn{
-    font-family: 'Barlow',sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-}
+  @media (max-width: 925px){
+    div.menu-mobile {
+      visibility: visible;
+    }
+  }
+
 
 
 
