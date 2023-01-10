@@ -7,6 +7,17 @@
     padding: 3%;
     margin: 0;
 }
+.triangle-2{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+    height: 0;
+    border-right: 200rem solid rgb(255, 255, 255);
+    border-top: 50rem solid transparent;
+    z-index: -3;
+}
 
   
 .text-container {
@@ -23,8 +34,8 @@
         font-size: 3rem;
         line-height: 1em;
     }
-    div.arrowParr p{
-     display: none;
+    div.arrowParr{
+      top: 50%;
     }
   }
   @media screen and (max-width:768px){
@@ -89,6 +100,7 @@ z-index: -1;
         line-height: 1em;
         float: left;
     }
+  
   }
 
 
