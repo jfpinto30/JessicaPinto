@@ -71,6 +71,7 @@ z-index: -1;
     text-align: right;
 }
 
+
 .jess-containerArrow{
     width: 100%;
     display: flex;
@@ -86,6 +87,11 @@ z-index: -1;
     transform: translateX(0);
   }
 } 
+@media (max-width:350px){
+ 
+}
+@media (max-width:425px){
+}
 
 
 
