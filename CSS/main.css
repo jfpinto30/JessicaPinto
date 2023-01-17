@@ -1,5 +1,5 @@
 
-.main {
+.main,.main-about{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,13 +9,14 @@
 }
 .triangle-2{
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: 100%;
   padding: 0;
   margin: 0;
     height: 0;
-    border-right: 200rem solid rgb(255, 255, 255);
+    border-right: 300rem solid rgb(255, 255, 255);
     border-top: 50rem solid transparent;
+    border-bottom: 50rem solid transparent;
     z-index: -3;
 }
 
@@ -218,6 +219,63 @@ filter: grayscale(100%);
 }
 
 
+
+
+/* MAIN ABOUT */
+
+
+.triangle-3{
+  position: absolute;
+  top: 200%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+    height: 0;
+    border-left: 200rem solid #ebebeb;
+   border-top: 50rem solid transparent;
+    border-bottom: 50rem solid transparent;
+    z-index: -3;   
+}
+
+.about-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5%;
+  
+}
+
+.about-container h2{
+  width: 100%;
+  font-size: 35px;
+}
+.about-container p{
+  width: 150rem;
+  margin-right: 3%;
+  font-size: 25px;
+  letter-spacing: 2px;
+  
+  }
+
+
+  .discription {
+    border: 5px solid purple;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+.discription span{
+  border: 5px solid yellow;
+  width: 100%;
+
+}
+.discription p{
+  border: 5px solid yellow;
+width: 100%;
+}
 
 
 
