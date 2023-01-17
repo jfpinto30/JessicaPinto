@@ -1,39 +1,18 @@
 
 @media screen and (max-width:350px){
-  label.menu-btn{
-    margin-right: 1rem;
-    font-size: 20px;
-  }
 }
-
 @media screen and (max-width:425px){
-  label.menu-btn{
-    margin-right: 1rem; 
-
-  }
 }
 @media screen and (max-width:768px){
-  label.menu-btn{
-    margin-right: 1rem; 
-
-  }
 }
 @media screen and (max-width:880px){
-  label.menu-btn{
-    margin-right: 1rem; 
-
-  }
 }
 @media screen and (max-width:950px){
-
 }
 @media screen and (max-width:1040px){
-
 }
 @media screen and (max-width:2040px){
-
 }
-
 
 
 .Header_header {
@@ -62,18 +41,19 @@
   float: left;
 }
 @media screen and (max-width:325px){
-  .Header_title {
+  div.Header_title {
     padding-left:1%;
+    width: 100%;
     }
 }
 @media screen and (max-width:425px){
-  .Header_title {
+  div.Header_title {
     width: 100%;
     padding-left:1%;
     }
 }
 @media screen and (max-width:575px){
-  .Header_title {
+  div.Header_title {
     padding-left:1% ;
     }
 }
@@ -266,6 +246,32 @@
     color: rgb(110, 142, 234);
     cursor:none;
   }
+
+@media screen and (max-width:350px){
+  label.menu-btn{
+    margin-right: 1rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:425px){
+  label.menu-btn{
+    margin-right: 1rem; 
+
+  }
+}
+@media screen and (max-width:768px){
+  label.menu-btn{
+    margin-right: 1rem; 
+
+  }
+}
+@media screen and (max-width:880px){
+  label.menu-btn{
+    margin-right: 1rem; 
+
+  }
+}
 
 
 

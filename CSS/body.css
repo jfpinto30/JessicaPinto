@@ -90,6 +90,16 @@ body {
   -webkit-backdrop-filter: blur(1px);
           backdrop-filter: blur(1px);
 }
+@media screen and (max-width:350px){
+  div.cursor{
+    visibility: hidden;
+  }
+}
+@media screen and (max-width:425px){
+  div.cursor{
+    visibility: hidden;
+  }
+}
 .cursor.active {
   opacity: 1;
   transform: scale(8);
@@ -129,6 +139,16 @@ body {
           user-select: none;
   pointer-events: none;
   transform: translate(4px, 4px);
+}
+@media screen and (max-width:350px){
+  div.cursor-follower{
+    visibility: hidden;
+  }
+}
+@media screen and (max-width:425px){
+  div.cursor-follower{
+    visibility: hidden;
+  }
 }
 
 .cursor-follower.active {
