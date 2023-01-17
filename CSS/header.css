@@ -70,22 +70,22 @@
   color: rgb(110, 142, 234);
   cursor:none;
 }
-@media screen and (max-width:325px){
+@media (max-width:325px){
   a.header_headertitel{
     font-size: 15px;
   }
 }
-@media screen and (max-width:425px){
+@media (max-width:425px){
   a.header_headertitel{
     font-size: 15px;
   }
 }
-@media screen and (max-width:576px){
+@media (max-width:576px){
   a.header_headertitel{
     font-size: 15px;
   }
 }
-@media screen and (max-width:768px){
+@media (max-width:768px){
   a.header_headertitel{
     font-size: 20px;
   }
@@ -250,26 +250,26 @@
 @media screen and (max-width:350px){
   label.menu-btn{
     margin-right: 1rem;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width:425px){
   label.menu-btn{
     margin-right: 1rem; 
-
+    font-size: 15px;
   }
 }
 @media screen and (max-width:768px){
   label.menu-btn{
     margin-right: 1rem; 
-
+    font-size: 20px;
   }
 }
 @media screen and (max-width:880px){
   label.menu-btn{
-    margin-right: 1rem; 
-
+    margin-right: 1rem;
+    font-size: 24px; 
   }
 }
 
