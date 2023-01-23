@@ -19,10 +19,10 @@
     width: 100%;
     text-align: center;
   }
-  @media (max-width:350px){
+  @media screen and (max-width:350px){
     .logo-header{
       border:5px solid red;
-      left: 10%;
+      margin-left:-6%;
     }
   }
   @media screen and (max-width:425px){
