@@ -19,29 +19,18 @@
     width: 100%;
     text-align: center;
   }
-  @media screen and (max-width:350px){
+  @media screen and (max-width:320px){
     .logo-header{
-      border:5px solid red;
-      margin-left:-6%;
-    }
+      border: 5px solid red;
+      left: 12%;
+        }
   }
   @media screen and (max-width:425px){
-    .logo-header{
-      border:5px solid red;
-      left: 13%;
-    }
   }
   @media screen and (max-width:768px){
-    .logo-header{
-      border:5px solid red;
-      left: 20%;
-    }
+  
   }
   @media screen and (max-width:880px){
-    .logo-header{
-      border:5px solid red;
-      left: 20%;
-    }
   }
   @media screen and (max-width:950px){
   }
@@ -60,6 +49,7 @@
     font-size: 25px;
     margin: 2%;
   }
+
  
 
   .logo {
