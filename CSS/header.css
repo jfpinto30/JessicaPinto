@@ -319,6 +319,8 @@
     border-color: #fff;
     visibility: visible;
   }
+
+
   .wrapper ul{
     position: absolute;
     top: 60%;
@@ -328,6 +330,31 @@
     list-style: none;
     text-align: center;
   }
+  @media (max-width:350px){
+    .wrapper ul{
+      left: 13%;
+      height: 30%;
+      top:20%;
+    }
+  }
+  @media (max-width:425px){
+    .wrapper ul {
+      left: 13%;
+      height: 30%;
+      top:20%;
+    }
+  }
+  @media screen and (max-width:768px){
+    .wrapper ul {
+      left: 13%;
+      height: 30%;
+      top:20%;
+    }
+  }
+  @media screen and (max-width:880px){
+  }
+
+
   .wrapper ul li{
     height: 10%;
     margin: 15px 0;
