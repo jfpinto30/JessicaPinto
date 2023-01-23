@@ -246,6 +246,10 @@
     color: rgb(110, 142, 234);
     cursor:none;
   }
+  .menu-btn:active{
+    cursor:none;
+  }
+ 
 
 @media screen and (max-width:350px){
   label.menu-btn{

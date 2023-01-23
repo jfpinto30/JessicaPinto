@@ -19,6 +19,40 @@
     width: 100%;
     text-align: center;
   }
+  @media (max-width:350px){
+    .logo-header{
+      border:5px solid red;
+      left: 10%;
+    }
+  }
+  @media screen and (max-width:425px){
+    .logo-header{
+      border:5px solid red;
+      left: 13%;
+    }
+  }
+  @media screen and (max-width:768px){
+    .logo-header{
+      border:5px solid red;
+      left: 20%;
+    }
+  }
+  @media screen and (max-width:880px){
+    .logo-header{
+      border:5px solid red;
+      left: 20%;
+    }
+  }
+  @media screen and (max-width:950px){
+  }
+  @media screen and (max-width:1040px){
+  }
+  @media screen and (max-width:2040px){
+  }
+  
+
+
+
 
 
   .jess {
@@ -36,6 +70,7 @@
     color: #efefef;
     font-family: 'Barlow', sans-serif;
   }
+
   
 
   .logo.active {
