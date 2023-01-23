@@ -334,14 +334,15 @@
     list-style: none;
     text-align: center;
   }
-  @media (max-width:350px){
-    .wrapper ul{
+  @media screen and (max-width:320px){
+    .wrapper ul {
       left: 13%;
       height: 30%;
       top:20%;
     }
+  
   }
-  @media (max-width:425px){
+  @media screen and (max-width:425px){
     .wrapper ul {
       left: 13%;
       height: 30%;

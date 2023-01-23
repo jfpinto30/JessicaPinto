@@ -77,7 +77,6 @@ z-index: -1;
 } 
 @media (max-width:350px){
   div.jess-containerArrow{
-    border: 5px solid red;
     position: absolute;
     width: 40%;
     margin-bottom: 8%;
