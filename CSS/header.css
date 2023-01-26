@@ -338,22 +338,6 @@
     text-align: center;
   }
 
-  @media screen and (max-width:320px){
-       .container ul{
-        left: 10em;
-       }
-  
-  }
-  @media screen and (max-width:425px){
- 
-
-  
-  }
-  @media screen and (max-width:768px){
-  
-  }
-  @media screen and (max-width:880px){
-  }
 
 
   .container ul li{
@@ -366,7 +350,6 @@
     font-weight: 500;
     padding: 5px 30px;
     color: #fff;
-    border-radius: 50px;
     position: absolute;
     line-height: 50px;
     margin: 5px 30px;
