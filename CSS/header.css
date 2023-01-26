@@ -323,9 +323,12 @@
     border-color: #fff;
     visibility: visible;
   }
+.container {
+  width: 100%;
+  height: 100vh;
+}
 
-
-  .wrapper ul{
+  .container ul{
     position: absolute;
     top: 60%;
     left: 50%;
@@ -334,37 +337,30 @@
     list-style: none;
     text-align: center;
   }
+
   @media screen and (max-width:320px){
-    .wrapper ul {
-      left: 13%;
-      height: 30%;
-      top:20%;
-    }
+       .container ul{
+        left: 10em;
+       }
   
   }
   @media screen and (max-width:425px){
-    .wrapper ul {
-      left: 13%;
-      height: 30%;
-      top:20%;
-    }
+ 
+
+  
   }
   @media screen and (max-width:768px){
-    .wrapper ul {
-      left: 13%;
-      height: 30%;
-      top:20%;
-    }
+  
   }
   @media screen and (max-width:880px){
   }
 
 
-  .wrapper ul li{
+  .container ul li{
     height: 10%;
     margin: 15px 0;
   }
-  .wrapper ul li a{
+  .container ul li a{
     text-decoration: none;
     font-size: 30px;
     font-weight: 500;
