@@ -17,15 +17,13 @@
     line-height: 7rem;
 }
 
-  @media screen and (max-width:375px){
-    .text-container{
+  @media screen and (min-width:320px){
+    .web-dev{
         font-size: 3rem;
         line-height: 1em;
     }
-    div.arrowParr{
-      top: 50%;
-    }
   }
+
   
 
 
@@ -39,23 +37,10 @@ top: 55%;
 width: 80%;
 z-index: -1;
 }
-@media screen and (max-width:350px){
-  div.jess-opp span{
-    top:45%;
-    font-size: 10px;
-}
 
-}
-@media screen and (max-width:425px){
-  div.jess-opp span{
-    top:45%;
-    font-size: 10px;
-}
-}
-@media screen and (max-width:768px){
-}
-@media screen and (max-width:880px){
-}
+
+
+
 
 .arrowParr{
     font-size: 18px;
@@ -79,21 +64,24 @@ z-index: -1;
     transform: translateX(0);
   }
 } 
-@media (max-width:350px){
+@media (max-width:355px){
   div.jess-containerArrow{
     position: absolute;
-    width: 40%;
+    width: 100px;
     margin-bottom: 8%;
     margin-left: -65%;
   }
  
 }
-@media (max-width:425px){
+@media all and (min-width:420px) and (max-width:550px){
   div.jess-containerArrow{
-    position: absolute;
-    width: 30%;
-    margin-bottom: 8%;
-    margin-left: -65%;
+    visibility: hidden;
+  }
+}
+@media all and (max-width:770px){
+  div.jess-containerArrow{
+    visibility: hidden;
+
   }
 }
 
@@ -105,14 +93,13 @@ z-index: -1;
   bottom: 0;
   right: 6%;
 }
-@media screen and (max-width:375px){
-    .jessica_main{
+@media screen and (min-width:320px){
+    .jessica_main {
         font-size: 3rem;
         line-height: 1em;
-        float: left;
     }
-  
   }
+
 
 
 
@@ -154,6 +141,13 @@ box-shadow: 0px 24px 64px 0px rgba(51,51,51,.08);
       height: 300px;
     }
   }
+@media screen and (max-width:450px){
+    .img-container{
+      width: 200px;
+      height: 300px;
+      
+    }
+  }
 
 
 .img-jessicaPinto{
@@ -191,6 +185,12 @@ filter: grayscale(100%);
     }
 }
 @media screen and (max-width:375px){
+    .img-jessicaPinto{
+      width: 255px;
+      height: 350px;
+    }
+  }
+@media screen and (max-width:450px){
     .img-jessicaPinto{
       width: 255px;
       height: 350px;
